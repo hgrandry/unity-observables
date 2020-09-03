@@ -1,14 +1,19 @@
 {
 	"name": "com.hgrandry.observables",
 	"version": "1.0.0",
+	"type": "library",
 	"displayName": "Hg Observables",
 	"description": "Observables for Unity",
 	"unity": "2019.1",
 	"unityRelease": "0b5",
-	"dependencies": {},
+	"dependencies": {
+		"jillejr.newtonsoft.json-for-unity": "12.0.301"
+	},
 	"keywords": [
-		"dependency",
-		"injection",
+		"observable",
+		"observer",
+		"model",
+		"view",
 		"modular",
 		"architecture"
 	],
